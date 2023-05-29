@@ -1,0 +1,1216 @@
+body {
+    margin: 0;
+    background-color: rgb(248,248,248);
+
+}
+
+#home {
+    width: 100%;
+    height: 700px;
+    /* background-color: rgb(104, 151, 193); */
+    background-image: url("video.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    animation-name: ani;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes ani {
+    0% {
+        background-image: url(video.jpg);
+    }
+
+    25% {
+        background-image: url(bg3.jpg);
+    }
+
+    50% {
+        background-image: url(video.jpg);
+    }
+
+
+    75% {
+        background-image: url(bg3.jpg);
+    }
+
+    100% {
+        background-image: url(video.jpg);
+    }
+}
+
+
+#home .nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.408);
+    display: flex;
+    
+}
+
+.nav .name {
+    width: 200px;
+    height: 70px;
+    /* background-color: rgb(216, 104, 104); */
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.name h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+.name h3 {
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.navbar {
+    width: 800px;
+    /* background-color: blueviolet; */
+    margin-left: 350px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.navbar a {
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+#home .content {
+    width: 100%;
+    height: 300px;
+
+    /* margin-left: 300px; */
+    margin-top: 100px;
+}
+
+#home .cont {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+
+#home p {
+    text-align: center;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    top: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#home .btn {
+    height: 100px;
+    /* background-color: aqua; */
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home button {
+    height: 60px;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(197, 168, 128);
+    border: none;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#home .btn .b2 {
+    background-color: rgba(0, 0, 0, 0.408);
+    outline: 1px solid white;
+}
+
+#home .btn .b2:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+#about {
+    height: 800px;
+    width: 100%;
+    /* background-color: rgb(223, 255, 244); */
+    background-color: rgb(248, 248, 248);
+}
+
+#about .line {
+    width: 80%;
+    height: 160px;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+
+}
+
+#about .line div {
+    width: 25%;
+    height: 160px;
+    background-color: rgba(34, 34, 34);
+    /* margin-left: 5px; */
+}
+
+#about .line div h4,
+p {
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+
+
+
+}
+
+#about .line div h4 {
+    font-size: 13px;
+    color: white;
+    margin-top: 50px;
+}
+
+#about .line div p {
+    font-size: 17px;
+    color: rgb(101, 101, 101);
+    text-align: left;
+
+}
+
+#about .line div h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+
+#about .line .div5 {
+    background-color: rgb(197, 168, 128);
+    cursor: pointer;
+}
+
+#about .about {
+    width: 100%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+#about .about div {
+    width: 40%;
+    height: 550px;
+    /* background-color: azure; */
+
+}
+
+#about .about .box1 {
+    margin-left: 150px;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 25px -2px rgba(0, 0, 0, 0.10);
+}
+
+#about .about .box1 div {
+    height: 250px;
+    width: 50%;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+#about .about .box1 .sec2 img {
+    height: 250px;
+    width: 100%;
+}
+
+
+/* #about .about .box1 .sec2{
+    background-image: url(hotel-img1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+#about .about .box1 .sec3 img {
+    height: 250px;
+    width: 100%;
+    opacity: 1;
+
+}
+
+
+
+#about .about .box1 .sec3 {
+    /* background-image: url(hotel-img1\ \(1\).jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#about .about .box1 .sec4:hover {
+    background-color: rgba(34, 34, 34);
+    color: rgb(255, 255, 255);
+
+}
+
+#about .about .box1 .sec1:hover {
+    background-color: rgba(34, 34, 34);
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+#about .about .box1 .sec4 img {
+    height: 50px;
+    width: 100px;
+}
+
+#about .box1 h3,
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#about .box1 .fa {
+    margin-left: 120px;
+    margin-top: 50px;
+    color: rgb(197, 168, 128);
+    font-size: 50px;
+}
+
+#about .box1 p {
+    margin-right: 10px;
+    color: rgb(165, 165, 165);
+}
+
+#about .box2 h5 {
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(197, 168, 128);
+    margin-top: 50px;
+}
+
+#about .box2 h1 {
+    margin-left: 30px;
+    font-size: 70px;
+    font-weight: normal;
+    color: rgba(34, 34, 34);
+    position: relative;
+    bottom: 50px;
+}
+
+#about .box2 p {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: rgb(165, 165, 165);
+    position: relative;
+    bottom: 80px;
+
+
+}
+
+#about .box2 button {
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(197, 168, 128);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+
+}
+
+#about .box2 button:hover {
+    background-color: black;
+    color: white;
+}
+
+#services {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid rgba(34, 34, 34, 0.273);
+    background-color: rgb(248, 248, 248);
+}
+
+#services .div1 {
+    width: 100%;
+    height: 150px;
+    /* background-color: burlywood; */
+}
+
+#services .div1 h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: rgb(197, 168, 128);
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#services .div1 h1 {
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+    color: rgba(34, 34, 34);
+
+}
+
+#services .div2 {
+    width: 100%;
+    height: 350px;
+    /* background-color: rgb(159, 98, 19); */
+    display: flex;
+    margin-top: 50px;
+
+}
+
+#services .div2 div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    border-radius: 50% 50% 50% 0;
+    margin-right: 30px;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+
+}
+
+#services .div2 div:hover .fa {
+
+    color: rgb(255, 255, 255);
+
+}
+
+#services .div2 div:hover h2 {
+
+    color: rgb(255, 255, 255);
+
+}
+
+#services .div2 div:hover {
+    background-color: rgb(197, 168, 128);
+}
+
+
+#services .div2 .a {
+    margin-left: 200px;
+}
+
+#services .div2 div .fa {
+    font-size: 70px;
+    margin: 30px 0px 20px 70px;
+    color: rgb(197, 168, 128);
+}
+
+/* #services .div2 div .fa:hover{
+    color: white;
+} */
+#services .div2 div h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: rgba(34, 34, 34);
+    cursor: pointer;
+    letter-spacing: 2px;
+
+
+}
+
+#small {
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 250px;
+    z-index: 0;
+    position: relative;
+}
+
+#small .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .9;
+    background: #222222;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    /* background-repeat-x: initial; */
+    /* background-repeat-y: initial; */
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(20, 19, 19, 0.875);
+    z-index: -1;
+}
+
+#small .a1 {
+    /* background-color: bisque; */
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 350px;
+    top: 50px;
+
+
+}
+
+#small .a1 h4 {
+    color: rgb(197, 168, 128);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+#small .a1 h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+#small .a2 {
+    /* background-color: bisque; */
+    width: 300px;
+    position: relative;
+    left: 850px;
+    bottom: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small .a2 a {
+    padding: 20px;
+    background-color: rgb(197, 168, 128);
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+
+
+}
+
+#small .a2 a:hover {
+    color: rgb(197, 168, 128);
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hey {
+    animation-name: num;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#room {
+    width: 100%;
+    height: 800px;
+    background-color: #F8F8F8;
+}
+
+#room .b1 {
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+#room .b1 h4 {
+    color: rgb(197, 168, 128);
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 50px;
+
+
+}
+
+#room .b1 h1 {
+    color: rgba(34, 34, 34);
+    font-weight: 200;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+#room .b2 {
+    height: 600px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+#room .b2 div {
+    height: 550px;
+    width: 400px;
+    background-color: aliceblue;
+    /* margin: 20px; */
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+
+}
+
+#room .b2 .c1 {
+    margin-left: 150px;
+    margin-right: 30px;
+    
+
+}
+
+
+#room .b2 .c2 {
+    margin-right: 30px;
+}
+
+#room .b2 .c3 {
+    margin-right: 3+0px;
+}
+
+#room .b2 .c1 div {
+    height: 275px;
+    width: 100%;
+    background-color: white;
+}
+
+#room .b2 .c2 div {
+    height: 275px;
+    width: 100%;
+    background-color: white;
+}
+
+#room .b2 .c3 div {
+    height: 275px;
+    width: 100%;
+    background-color: white;
+}
+
+#room .b2 .c3 .img3 {
+    height: 275px;
+    width: 100%;
+    background-image: url("room1.jpg");
+    background-size: cover;
+
+}
+
+#room .b2 .c1:hover div {
+    background-color: rgba(34, 34, 34);
+    transition: all 0.3s ease;
+}
+
+#room .b2 .c2:hover div {
+    background-color: rgba(34, 34, 34);
+    transition: all 0.3s ease;
+}
+
+#room .b2 .c3:hover div {
+    background-color: rgba(34, 34, 34);
+    transition: all 0.3s ease;
+}
+
+#room .b2 .c2 .img2 {
+    height: 275px;
+    width: 100%;
+    background-image: url("room2.jpg");
+    background-size: cover;
+
+}
+
+#room .b2 .c1 .img1 {
+    height: 275px;
+    width: 100%;
+    background-image: url("room3.jpg");
+    background-size: cover;
+
+}
+
+#room .b2 .c1:hover .img1 {
+    background-image: url("room33.jpg");
+    transition: all 0.3s ease;
+}
+
+#room .b2 .c2:hover .img2 {
+    background-image: url("room22.jpg");
+    transition: all 0.3s ease;
+}
+
+#room .b2 .c3:hover .img3 {
+    background-image: url("room11.jpg");
+    transition: all 0.3s ease;
+}
+
+
+#room .b2 H2 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50px;
+    color: rgba(34, 34, 34);
+
+}
+
+#room .b2 .c1:hover H2 {
+    color: white;
+}
+
+#room .b2 .c2:hover H2 {
+    color: white;
+}
+
+#room .b2 .c3:hover H2 {
+    color: white;
+}
+
+#room .b2 p {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    padding: 20px;
+
+}
+
+#room .b2:hover p {
+    color: gray;
+}
+
+#room .b2 button {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-left: 4px;
+    color: rgb(66, 66, 66);
+    border: 1px solid rgb(228, 226, 226);
+    background-color: white;
+    font-weight: bold;
+
+}
+
+#room .b2:hover {
+    color: white;
+}
+
+#room .b2 .btn1 {
+    border: none;
+    color: rgb(197, 168, 128);
+    /* background-color: aqua; */
+    width: 150px;
+    height: 70px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+#video{
+    width: 100%;
+    height: 600px;
+    background-image: url(video.jpg);
+    background-position: center;
+    
+}
+
+#video .log{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.415);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video .log .vi h4{
+    /* margin-left: 50px; */
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+#video .log .vi .blink{
+    animation: blinker 3s linear infinite;
+     
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+#video .log .vi h2{
+    /* margin-left: 50px; */
+    text-align: center;
+    
+    font-size: 60px;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    bottom: 40px;
+}
+#video .log  .vi a{
+    /* font-size: 50px; */
+    /* padding: 30px; */
+    padding: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    left: 130px;
+    background-color: rgb(197, 168, 128);
+    position: relative;
+    bottom: 50px;
+    animation-name: video;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes video{
+    from{
+
+
+    }
+    to{
+        box-shadow: 0px 5px 25px -2px rgba(175, 175, 175, 0.8);
+    }
+}
+#video .log .fa{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    color: white;
+}
+
+#food{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(248,248,248);
+    display: flex;
+    margin-top: 100px;
+}
+#food .diva{
+    width: 500px;
+    height: 600px;
+    /* background-color: blue; */
+
+
+}
+#food .diva1{
+    width: 800px;
+    height: 600px;
+    /* background-color: rgb(197, 168, 128); */
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.144);
+
+}
+#food .diva1 .img{
+    width: 350px;
+    height: 250px;
+    /* background-color: aquamarine; */
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+   
+#food .diva1 .img img{
+    width: 350px;
+    height: 250px;
+    /* border-radius: 20px; */
+}
+#food .diva2 h4{
+  margin-left: 30px;
+  color: rgb(197, 168, 128);
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+
+}
+#food .diva2 h1{
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: rgba(34, 34, 34);
+    
+}
+#food .diva2 p{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    letter-spacing: 1px;
+    
+}
+#food .diva2 a{
+    margin-left: 30px;
+    color: rgb(197, 168, 128);
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    letter-spacing: 1px;
+    
+}
+#blog{
+    width: 100%;
+    height: 800px;
+    /* background-color: coral; */
+    margin-top: 100px;
+}
+#blog .head{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#blog .head h4{
+    color: rgb(197, 168, 128);
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+#blog .head .blink{
+    animation: blinker 4s linear infinite;
+     
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+#blog .head h1{
+    font-weight: 100;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: rgba(34, 34, 34);
+    text-align: center;
+    
+}
+#blog .Oblog{
+    width: 100%;
+    height: 600px;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+#blog .Oblog .cont1{
+    height: 550px;
+    width: 350px;
+    /* background-color: aquamarine; */
+    margin-left: 7px;
+    box-shadow: 0px 5px 20px -2px rgba(0, 0, 0, 0.144);
+   
+
+}
+
+#blog .Oblog .cont1 img{
+    height: 275px;
+    width: 100%;
+    transition: transform 2s;
+}
+#blog .Oblog .cont1 img:hover{
+    transform: rotateY(160deg);
+
+}
+
+
+#blog .Oblog .first{
+    margin-left: 50px;
+}
+#blog .Oblog .cont1 pre{
+    margin-left: 30px;
+    /* font-weight: 100; */
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(34, 34, 34);
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+#blog .Oblog .cont1 span{
+    color: rgb(201, 134, 40);
+}
+#blog .Oblog .cont1 h1{
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgba(34, 34, 34);
+    
+}
+#blog .Oblog .cont1 p{
+    margin-right: 30px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    letter-spacing: 1px;
+    
+}
+#photo{
+    width: 100%;
+    height: 300px;
+    /* background-color: #222222; */
+    display: flex;
+    margin-top: 100px;
+    box-shadow: 0px 5px 20px -2px rgba(0, 0, 0, 0.144);
+}
+#photo .hi{
+    background-color: antiquewhite;
+    height: 280px;
+    width: 280px;
+    margin: 10px;
+}
+#photo .hi img{
+    height: 280px;
+    width: 280px;
+}
+#photo .hi img:hover{
+    opacity: 0.7;
+}
+#photo .hi1{
+    margin-left: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .div1 {
+    width: 350px;
+    height: 250px;
+    background-color: transparent;
+
+}
+footer .div2 {
+    width: 250px;
+    height: 250px;
+    /* background-color: rgb(237, 122, 122); */
+
+}
+footer .div3 {
+    width: 250px;
+    height: 250px;
+    /* background-color: rgb(88, 159, 159); */
+    height: 200px;
+
+}
+footer .div4 {
+    width: 250px;
+    height: 250px;
+    /* background-color: rgb(63, 137, 137); */
+
+}
+footer .div5 {
+    width: 350px;
+    height: 250px;
+    /* background-color: aqua; */
+    
+
+}
+footer .div1 h4{
+    font-family: 'Lato', sans-serif;
+    color: rgb(254, 254, 254);
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+footer .div1 span{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer .div1 p{
+    color: gray;
+    text-align: left;
+    position: relative;
+    right: 30px;
+
+}
+footer .div1 .fa{
+    font-size: 30px;
+    margin-left: 30px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    color: rgb(197, 168, 128);
+}
+footer .div2 h2{
+    
+        font-family: 'Lato', sans-serif;
+    color: rgb(254, 254, 254);
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 35px;
+    
+}
+footer .div2 .fa{
+    font-size: 18px;
+    margin: 12px 10px 10px 0px;
+    color: gray;
+}
+footer .div2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+footer .div3 {
+    position: relative;
+    top: 50px;
+}
+footer .div3 .fa{
+    font-size: 18px;
+    margin: 12px 10px 10px 0px;
+    color: gray;
+}
+
+footer .div3 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+
+footer .div4 h2{
+    
+    font-family: 'Lato', sans-serif;
+color: rgb(254, 254, 254);
+letter-spacing: 1px;
+font-size: 20px;
+margin-top: 35px;
+
+}
+footer .div4 .fa{
+font-size: 18px;
+margin: 12px 10px 10px 0px;
+color: gray;
+}
+footer .div4 a{
+text-decoration: none;
+font-size: 18px;
+color: gray;
+}
+
+footer .div5 h2{
+    
+    font-family: 'Lato', sans-serif;
+color: rgb(254, 254, 254);
+letter-spacing: 1px;
+font-size: 20px;
+margin-top: 35px;
+
+}
+footer .div5 .fa{
+font-size: 18px;
+margin: 12px 15px 15px 0px;
+color: rgb(197, 168, 128);
+}
+footer .div5 a{
+text-decoration: none;
+font-size: 18px;
+color: gray;
+}
+
+#foot{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(21,21,21);
+    position: relative;
+    bottom: 20px;
+}
+#foot p{
+    color: rgb(144, 144, 144);
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
+#foot span{
+    color: rgb(197, 168, 128);
+
+}
+
+
+
+
+
+
+
+
